@@ -61,9 +61,9 @@ const Home = () => {
               <CopyrightIcon style={{ fontSize: "16px", marginTop: "-5px" }} />{" "}
               OCMS Software
             </div>
-            <div className="ms-0 ms-md-4 ps-2 ps-md-0">
+{/*             <div className="ms-0 ms-md-4 ps-2 ps-md-0">
               sumitkanpur2005@gmail.com
-            </div>
+            </div> */}
           </div>
           <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end py-2">
 {/*             <span className="px-2">
