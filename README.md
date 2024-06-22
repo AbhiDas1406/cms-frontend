@@ -4,9 +4,7 @@
 To start the project on your local system, perform the following steps:-
 
 Clone the repository
-```python
-git clone https://github.com/Software-Engineering-Project-Team-Bob/OCMS_Frontend.git
-```
+
 Currently, the frontend works on the hosted backend URL at https://cms-backend-phi.vercel.app/
 
 Change the Environment Variables in the .env.example  files.
@@ -32,10 +30,4 @@ Start the project
 npm start
 ```
 
-Contact :-
-Sumit Kumar
-
-Email-sumitkanpur2005@gmail.com
-
-Phone Number:-7376910003
 
