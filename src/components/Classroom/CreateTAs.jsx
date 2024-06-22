@@ -17,7 +17,7 @@ function ClassTimings() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://ocms-backend.vercel.app/classes/createTAs', formData);
+      const response = await axios.post('https://cms-backend-phi.vercel.app/classes/createTAs', formData);
       console.log('Response:', response);
 
       if (response.status === 200) {

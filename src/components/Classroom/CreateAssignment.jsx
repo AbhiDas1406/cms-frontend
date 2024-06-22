@@ -94,7 +94,7 @@ const CreateAssignment = (props) => {
   //       .getDownloadURL()
   //       .then((firebaseURL) => {
   //         return axios.post(
-  //           "https://ocms-backend.vercel.app/classes/createAssignment",
+  //           "https://cms-backend-phi.vercel.app/classes/createAssignment",
   //           {
   //             classCode: props.classCode,
   //             name: values.name,
@@ -138,7 +138,7 @@ const CreateAssignment = (props) => {
     uploadTask.on("state_changed", console.log, console.error, () => {
       getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
         return axios.post(
-          "https://ocms-backend.vercel.app/classes/createAssignment",
+          "https://cms-backend-phi.vercel.app/classes/createAssignment",
           {
             classCode: props.classCode,
             name: values.name,

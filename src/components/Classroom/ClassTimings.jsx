@@ -21,7 +21,7 @@ function ClassTimings() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('https://ocms-backend.vercel.app/classes/setTimeTable', formData);
+      const response = await axios.post('https://cms-backend-phi.vercel.app/classes/setTimeTable', formData);
       console.log('Response:', response);
 
       if (response.status === 200) {

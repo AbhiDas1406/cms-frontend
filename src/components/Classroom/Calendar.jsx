@@ -15,7 +15,7 @@ export default function Calendar() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://ocms-backend.vercel.app/classes/getTimeTable",
+        "https://cms-backend-phi.vercel.app/classes/getTimeTable",
         {
           classCode: classCode,
         }

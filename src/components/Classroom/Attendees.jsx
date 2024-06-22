@@ -13,7 +13,7 @@ const Attendees = ({adminName, adminEmail, classCode}) => {
     useEffect(() => {
         const getAttendees = async () => {
             setLoading(true);
-        axios.post("https://ocms-backend.vercel.app/classes/getAttendees", {
+        axios.post("https://cms-backend-phi.vercel.app/classes/getAttendees", {
             classCode: classCode
         },
         {
